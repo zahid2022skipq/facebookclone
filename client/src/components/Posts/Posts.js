@@ -41,7 +41,7 @@ const Posts = () => {
   ];
 
   return (
-    <div className="flex flow-row w-full bg-gray-100 pt-20 justify-center p-10">
+    <div className="flex flow-row w-full bg-gray-100 justify-center p-10">
       <div>
         {data.map((data) => (
           <Post data={data} />

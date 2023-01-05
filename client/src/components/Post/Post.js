@@ -3,7 +3,7 @@ import { AiOutlineLike } from "react-icons/ai";
 
 const Post = ({ data }) => {
   return (
-    <div className="py-5 bg-white rounded-lg shadow my-5">
+    <div className=" bg-white rounded-lg shadow mb-10">
       <div className="py-3 px-5">
         <h1 className="text-md font-medium">{data.name}</h1>
       </div>
